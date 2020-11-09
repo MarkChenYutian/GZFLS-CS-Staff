@@ -54,4 +54,23 @@
 
 4. 
 
+13.Consider the following method.
+   public int Function(int a){
+      if (a <= 0){
+         return 1;
+      }
+      else{
+         return Function(a - 1) + Function(a - 2);
+      }
+    }
+   What will be the result of System.out.println(Function(3));
+   
+   a. 2
+   
+   b. 3
+   
+   c. 4
+   
+   d. 5
+
 ## Free Response Questions (3 Questions, 30 Min)
