@@ -40,9 +40,7 @@
 
    d. 2.0
 
-3. `a & !b || !b < 5`
-    **这题有问题**
-
-4. 
-
+3. `!(!(a!=b)) && (b > 7))` is equivalent to which of the following?
+    
+    
 ## Free Response Questions (3 Questions, 30 Min)
