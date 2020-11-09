@@ -87,9 +87,13 @@
    c. 
       ```java
       test.insert(1, 0);
-      test.set(
+      test.set(1, 4);
       ```
    
    d.
+      ```java
+      test.insert(0, 2);
+      test.set(1, 4);
+      ```
     
 ## Free Response Questions (3 Questions, Suggest Time: 30 Min)
