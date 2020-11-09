@@ -95,5 +95,5 @@
       test.insert(0, 2);
       test.set(1, 4);
       ```
-    
-## Free Response Questions (3 Questions, Suggest Time: 30 Min)
+
+## Free Response Questions (3 Questions, 30 Min)
