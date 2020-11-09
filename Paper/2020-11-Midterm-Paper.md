@@ -96,7 +96,8 @@
       test.set(1, 4);
       ```
 
-13.Consider the following method.
+13. Consider the following method.
+   ```java
    public int Function(int a){
       if (a <= 0){
          return 1;
@@ -105,7 +106,8 @@
          return Function(a - 1) + Function(a - 2);
       }
     }
-   What will be the result of System.out.println(Function(3));
+   ```
+   What will be the result of `System.out.println(Function(3))`;
    
    a. 2
    
