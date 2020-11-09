@@ -40,8 +40,14 @@
 
    d. 2.0
 
-3. `a & !b || !b < 5`
-    **这题有问题**
+3. Assume that a and b have been defined and initialized as int values. The          expression
+   !(a == b) || (! (b < 5) )
+   is equivalent to which of the following?
+   
+   a. (a == b) || (b > 5)
+   b. (a != b) || (b >= 5)
+   c. (a != b) || (b > 5)
+   d. (a == b) || (b >= 5)
 
 4. 
 
