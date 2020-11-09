@@ -1,6 +1,6 @@
 # AP Computer Science A Paper
 
-## Multiple Choise (13 Questions, Suggest Time: 30 Min)
+## Multiple Choice (13 Questions, Suggest Time: 30 Min)
 1. Consider the following code segment
    ```java
    int n = 10;
@@ -95,5 +95,170 @@
       test.insert(0, 2);
       test.set(1, 4);
       ```
+   
+6. Consider the following function
+
+   ```java
+   public static void Function(int n){
+       double i = 2;
+       int m = 3;
+       System.out.println(i + n / m);
+   }
+   ```
+
+   What will be the output of `Function(2)`
+
+   a. 2
+
+   b. 2.0
+
+   c. 1
+
+   d. 1.0
+
+7. Consider the following function
+
+   ```java
+   public static int MysteryFunc(int p, int q)
+       int n = 0;
+       for (int i = 0; i < p; i ++){
+           for (int j = 0; j < q; j ++){
+               n++;
+           }
+       }
+       return n;
+   ```
+
+   Which of the formula below has same effect?
+
+   a. `n = p + q;`
+
+   b. `n = p * q;`
+
+   c. `n = pq + pq + ... + pq;` (with `p` `pq` terms)
+
+   d. `n = Math.pow(p, q);`
+
+8. Observe the following code segment
+
+   ```java
+   public static void main(String[] args) {
+       int[] a = new int[3];
+       int[] b = {1, 2, 3};
+       a = b;
+       b[1] = 7;
+       System.out.println(a[1]);
+       System.out.println(b[1]);
+   }
+   ```
+
+   What will be the output of this function?
+
+   a. 
+
+   ```
+   1
+   1
+   ```
+
+   b.
+
+   ```
+   2
+   2
+   ```
+
+   c. 
+
+   ```
+   2
+   7
+   ```
+
+   d.
+
+   ```
+   7
+   7
+   ```
+
+9. Consider the following function
+
+   ```java
+   public static int findValueIndex(int[] arr, int n){
+       //missing section   
+   }
+   ```
+
+   Placing which segment of code in position "missing section" will make the function be able to help us find the index of specific value in array (if there does not exist such a value, return -1)?
+
+   a. 
+
+   ```java
+   for (int i = 0; i < arr.length; i++){
+       if (arr.get(i) == n){
+           return n;
+       }
+       else{
+           return -1;
+       }
+   }
+   ```
+
+   b.
+
+   ```java
+   for (int i = 0; i < arr.length; i++){
+       if (arr[i] == n){
+           return n;
+       }
+       return -1;
+   }
+   ```
+
+   c.
+
+   ```java
+   for (int i = 0; i < arr.size(); i++){
+       if (arr[i] == n){
+           return i;
+       }
+   }
+   return -1;
+   ```
+
+   d.
+
+   ```java
+   for (int i = 0; i < arr.length; i++){
+       if (arr[i] == n){
+           return i;
+       }
+   }
+   return -1;
+   ```
+
+10. Consider the following code segment that aims to find the mean value of a given `ArrayList` of integers.
+
+    ```java
+    public static double Function(ArrayList<int> arr){
+        int s = 0;
+        for (int i = 0; i < arr.size(); i ++){
+            s += arr.get(i);
+        }
+        return s / arr.size();
+    }
+    ```
+
+    Will this code work accurately?
+
+    a. Yes
+
+    b. No, since we should use `arr.length` to get the length of `arr` instead of `arr.size()` 
+
+    c. No, since we should use `s // arr.size()` instead of `s / arr.size()` on the last line.
+
+    d. No, since dividing two integers `s` and `arr.size()` will make the result inaccurate.
 
 ## Free Response Questions (3 Questions, 30 Min)
+
