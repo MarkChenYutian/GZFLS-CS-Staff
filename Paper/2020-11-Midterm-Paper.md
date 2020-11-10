@@ -234,7 +234,6 @@
     
     d. 5
                              
-
 11. Consider the following code segment.
     
     ```java
@@ -268,26 +267,26 @@
       
 12.Consider the following method.
 
-      ```java
-      public int Function(int a){
-         if (a <= 0){
-            return 1;
-         }
-         else{
-            return Function(a - 1) + Function(a - 2);
-         }
-       }
-      ```
+   ```java
+   public int Function(int a){
+      if (a <= 0){
+         return 1;
+      }
+      else{
+         return Function(a - 1) + Function(a - 2);
+      }
+   }
+   ```
       
    What will be the result of `System.out.println(Function(3))`;
    
-      a. 2
+   a. 2
 
-      b. 3
+   b. 3
 
-      c. 4
-
-      d. 5
+   c. 4
+   
+   d. 5
    
 13. Consider the following method.
 
@@ -303,13 +302,13 @@
     
    what is the result of Function(107) ?
    
-      a. 2
+   a. 2
 
-      b. 10
+   b. 10
 
-      c. 0
+   c. 0
 
-      d. 3
+   d. 3
 
 ## Free Response Questions (3 Questions, 30 Min)
 
