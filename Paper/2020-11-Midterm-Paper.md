@@ -184,31 +184,26 @@
    ```
 
 9. Consider the following code segment.
-
-   ```java
-   int[] arr = {2, 8, 6, 4, 10, 31, 15, 18, 11};
-   int i == 0;
-   while (i < arr.length -2 ){
-      if (arr[i] < arr[i + 1]){
-         System.out.print(arr[i] + " ");
+      int arr = {2, 8, 6, 4, 10, 31, 15, 18, 11};
+      int i == 0;
+      while (i < arr.length() -2 ){
+         if (arr[i] < arr[i + 1]){
+            System.out.print(arr[i] + " ");
+         }
+         i++
       }
-   i++
-   }
-   ```
       
-   What will be printed as a result of executing the code segment?
+      What will be printed as a result of executing the code segment?
       
-   a. 2 6 10 15
+      a. 2 6 10 15
       
-   b. 2 4 10 11
+      b. 2 4 10 11
       
-   c. 2 6 10 11
+      c. 2 6 10 11
       
-   d. 2 4 10 15 
+      d. 2 4 10 15 
 
 10. Consider the following method.
-
-    ```java
     public static void main(String args[]) {
       ArrayList<Integer> list = new ArrayList<String>();
       for (int i = 0; i < 10; i++){
@@ -222,7 +217,6 @@
       int size = list.size();
       return size;
     }
-    ```
     
     What is the result of the method?
     
@@ -234,41 +228,40 @@
     
     d. 5
                              
+
 11. Consider the following code segment.
-    
-    ```java
     int result = 200;
     for (int i == 0; i < 5; i++){
-      if ( /*expression1*/ ) {
+      if ( /*expression1*/ )
+      {
          result = result // 10;
       }
-      else if ( /* expression2 */ ) {
+      else if ( /* expression2 */ )
+      {
          retult = result % 2;
       }
       else{
          result = result * 2;
       }
-    ```
    
-    Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
+   Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
    
-    a. /*expression1*/ : result % 10 == 0
-         /*expression2*/ : result // 2 > 2
-
-    b. /*expression1*/ : result % 10 ==0
-         /*expression2*/ : result // 2 >= 2
-
-    c. /*expression1*/ : result % 5 ==0
-         /*expression2*/ : result // 2 >2
-
-    d. /*expression1*/ : result % 5 == 0
-         /*expression2*/ : result // 2 >= 2
+   a. /*expression1*/ : result % 10 == 0
+      /*expression2*/ : result // 2 > 2
+   
+   b. /*expression1*/ : result % 10 ==0
+      /*expression2*/ : result // 2 >= 2
+   
+   c. /*expression1*/ : result % 5 ==0
+      /*expression2*/ : result // 2 >2
+   
+   d. /*expression1*/ : result % 5 == 0
+      /*expression2*/ : result // 2 >= 2
       
       
-12. Consider the following method.
-
-    ```java
-    public int Function(int a){
+12.Consider the following method.
+   ```java
+   public int Function(int a){
       if (a <= 0){
          return 1;
       }
@@ -276,39 +269,124 @@
          return Function(a - 1) + Function(a - 2);
       }
     }
-    ```
-      
-    What will be the result of `System.out.println(Function(3))`;
+   ```
+   What will be the result of `System.out.println(Function(3))`;
    
-    a. 2
-
-    b. 3
-
-    c. 4
+   a. 2
    
-    d. 5
+   b. 3
+   
+   c. 4
+   
+   d. 5
    
 13. Consider the following method.
-
-     ```java
-     public int Function(int n){
+    public int Function(int n){
         int[] ctrlSequence = {3, 5, 11, 25, 36};
-        for (int i= ctrlSequence.length - 1; i > 0; i--){
+        for (int i= ctrlSequence.length() - 1; i > 0; i--){
             n = n % ctrlSequence[i];
         }
         return n;
-     }
-     ```
+    }
     
-    what is the result of Function(107) ?
+   what is the result of Function(107) ?
    
-    a. 2
-
-    b. 10
-
-    c. 0
-
-    d. 3
+   a. 2
+   
+   b. 10
+   
+   c. 0
+   
+   d. 3
 
 ## Free Response Questions (3 Questions, 30 Min)
+
+1. consider the following program
+   ```java
+   public static ArrayList<Integer> reverseArrList(ArrayList<Integer> arrlist){
+      // write your code below
+   
+   
+   
+   
+   
+   
+   
+   
+   }
+   
+   public static void main(String[] args){
+      ArrayList<Integer> arrlist=new ArrayList<Integer>();
+      arrlist.add(1);
+      arrlist.add(7);
+      arrlist.add(4);
+      arrlist.add(8);
+      arrlist.add(5);
+      reverseArrLista(arrList);
+      for( int i=0; i<arrList.size();i++){
+         System.out.println(arrList.get(i));
+      }
+   }
+   ```
+   complete the code so that the result of the program is 
+   5
+   8
+   4
+   7
+   1
+   
+   
+   2. consider the following code
+   ```java
+   public static result findS(String[] arr){
+      int result=0;
+      // write your code below
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      return result;
+   }
+   
+   public static void main (String[] args){
+      String[] arr1={"j", "mark", "simon", "silvia"};
+      String[] arr2={"supermarkets", "apples", bottles"};
+      System.out.println(findS(arr1));
+      System.out.println(findS(arr2));
+   }
+   ```
+   complete the code so that the result of the program is 
+   2
+   4
+   
+   
+   3. consider the following program
+   ```java
+   public static int lessThan20(int[] arr){
+      int result=0;
+      // write your code below
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      return result;
+   }
+   
+   public static void main(String[] args){
+      int[] arr={0,1,4,1,30,5,8,93,45,8,9,20,5,4,9};
+      System.out.println(lessThan20(arr));
+   }
+   ```
+   complete the program to count the number of elements in the array that is less than or equal to 20 (you must use regression). 
+   
 
