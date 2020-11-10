@@ -255,39 +255,39 @@
    
    Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
    
-   a. /*expression1*/ : result % 10 == 0
-      /*expression2*/ : result // 2 > 2
-   
-   b. /*expression1*/ : result % 10 ==0
-      /*expression2*/ : result // 2 >= 2
-   
-   c. /*expression1*/ : result % 5 ==0
-      /*expression2*/ : result // 2 >2
-   
-   d. /*expression1*/ : result % 5 == 0
-      /*expression2*/ : result // 2 >= 2
+      a. /*expression1*/ : result % 10 == 0
+         /*expression2*/ : result // 2 > 2
+
+      b. /*expression1*/ : result % 10 ==0
+         /*expression2*/ : result // 2 >= 2
+
+      c. /*expression1*/ : result % 5 ==0
+         /*expression2*/ : result // 2 >2
+
+      d. /*expression1*/ : result % 5 == 0
+         /*expression2*/ : result // 2 >= 2
       
       
 12.Consider the following method.
-   ```java
-   public int Function(int a){
-      if (a <= 0){
-         return 1;
-      }
-      else{
-         return Function(a - 1) + Function(a - 2);
-      }
-    }
-   ```
+      ```java
+      public int Function(int a){
+         if (a <= 0){
+            return 1;
+         }
+         else{
+            return Function(a - 1) + Function(a - 2);
+         }
+       }
+      ```
    What will be the result of `System.out.println(Function(3))`;
    
-   a. 2
-   
-   b. 3
-   
-   c. 4
-   
-   d. 5
+      a. 2
+
+      b. 3
+
+      c. 4
+
+      d. 5
    
 13. Consider the following method.
 
