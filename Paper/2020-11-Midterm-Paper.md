@@ -250,18 +250,18 @@
       }
     ```
    
-   Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
+    Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
    
-   a. /*expression1*/ : result % 10 == 0
+    a. /*expression1*/ : result % 10 == 0
          /*expression2*/ : result // 2 > 2
 
-   b. /*expression1*/ : result % 10 ==0
+    b. /*expression1*/ : result % 10 ==0
          /*expression2*/ : result // 2 >= 2
 
-   c. /*expression1*/ : result % 5 ==0
+    c. /*expression1*/ : result % 5 ==0
          /*expression2*/ : result // 2 >2
 
-   d. /*expression1*/ : result % 5 == 0
+    d. /*expression1*/ : result % 5 == 0
          /*expression2*/ : result // 2 >= 2
       
       
