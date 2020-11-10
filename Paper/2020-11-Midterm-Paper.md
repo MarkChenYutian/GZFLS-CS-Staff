@@ -251,7 +251,7 @@
       else{
          result = result * 2;
       }
-   ```
+      ```
    
    Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
    
