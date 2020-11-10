@@ -234,7 +234,6 @@
     
     d. 5
                              
-
 11. Consider the following code segment.
     
     ```java
@@ -251,65 +250,65 @@
       }
     ```
    
-   Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
+    Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
    
-   a. /*expression1*/ : result % 10 == 0
+    a. /*expression1*/ : result % 10 == 0
          /*expression2*/ : result // 2 > 2
 
-   b. /*expression1*/ : result % 10 ==0
+    b. /*expression1*/ : result % 10 ==0
          /*expression2*/ : result // 2 >= 2
 
-   c. /*expression1*/ : result % 5 ==0
+    c. /*expression1*/ : result % 5 ==0
          /*expression2*/ : result // 2 >2
 
-   d. /*expression1*/ : result % 5 == 0
+    d. /*expression1*/ : result % 5 == 0
          /*expression2*/ : result // 2 >= 2
       
       
-12.Consider the following method.
+12. Consider the following method.
 
-      ```java
-      public int Function(int a){
-         if (a <= 0){
-            return 1;
-         }
-         else{
-            return Function(a - 1) + Function(a - 2);
-         }
-       }
-      ```
+    ```java
+    public int Function(int a){
+      if (a <= 0){
+         return 1;
+      }
+      else{
+         return Function(a - 1) + Function(a - 2);
+      }
+    }
+    ```
       
-   What will be the result of `System.out.println(Function(3))`;
+    What will be the result of `System.out.println(Function(3))`;
    
-      a. 2
+    a. 2
 
-      b. 3
+    b. 3
 
-      c. 4
-
-      d. 5
+    c. 4
+   
+    d. 5
    
 13. Consider the following method.
 
-    ```java
-    public int Function(int n){
+     ```java
+     public int Function(int n){
         int[] ctrlSequence = {3, 5, 11, 25, 36};
         for (int i= ctrlSequence.length - 1; i > 0; i--){
             n = n % ctrlSequence[i];
         }
         return n;
-    }
-    ```
+     }
+     ```
     
-   what is the result of Function(107) ?
+    what is the result of Function(107) ?
    
-      a. 2
+    a. 2
 
-      b. 10
+    b. 10
 
-      c. 0
+    c. 0
 
-      d. 3
+    d. 3
 
 ## Free Response Questions (3 Questions, 30 Min)
 
