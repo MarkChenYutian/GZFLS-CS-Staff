@@ -184,6 +184,7 @@
    ```
 
 9. Consider the following code segment.
+     ```java
       int arr = {2, 8, 6, 4, 10, 31, 15, 18, 11};
       int i == 0;
       while (i < arr.length() -2 ){
@@ -192,6 +193,7 @@
          }
          i++
       }
+    ```
       
       What will be printed as a result of executing the code segment?
       
@@ -204,20 +206,21 @@
       d. 2 4 10 15 
 
 10. Consider the following method.
-    public static void main(String args[]) {
-      ArrayList<Integer> list = new ArrayList<String>();
-      for (int i = 0; i < 10; i++){
-          if (list.size() < 4){
-            list.add(i);
-          }
-          else{
-            list.remove(0);
-          }
-      }
-      int size = list.size();
-      return size;
-    }
-    
+      ```java
+       public static void main(String args[]) {
+         ArrayList<Integer> list = new ArrayList<String>();
+         for (int i = 0; i < 10; i++){
+             if (list.size() < 4){
+               list.add(i);
+             }
+             else{
+               list.remove(0);
+             }
+         }
+         int size = list.size();
+         return size;
+       }
+       ```
     What is the result of the method?
     
     a. 2
@@ -230,37 +233,38 @@
                              
 
 11. Consider the following code segment.
-    int result = 200;
-    for (int i == 0; i < 5; i++){
-      if ( /*expression1*/ )
-      {
-         result = result // 10;
-      }
-      else if ( /* expression2 */ )
-      {
-         retult = result % 2;
-      }
-      else{
-         result = result * 2;
-      }
-   
-   Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
-   
-   a. /*expression1*/ : result % 10 == 0
-      /*expression2*/ : result // 2 > 2
-   
-   b. /*expression1*/ : result % 10 ==0
-      /*expression2*/ : result // 2 >= 2
-   
-   c. /*expression1*/ : result % 5 ==0
-      /*expression2*/ : result // 2 >2
-   
-   d. /*expression1*/ : result % 5 == 0
-      /*expression2*/ : result // 2 >= 2
+      ```java
+       int result = 200;
+       for (int i == 0; i < 5; i++){
+         if ( /*expression1*/ )
+         {
+            result = result // 10;
+         }
+         else if ( /* expression2 */ )
+         {
+            retult = result % 2;
+         }
+         else{
+            result = result * 2;
+         }
+      ```
+      Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
+
+      a. /*expression1*/ : result % 10 == 0
+         /*expression2*/ : result // 2 > 2
+
+      b. /*expression1*/ : result % 10 ==0
+         /*expression2*/ : result // 2 >= 2
+
+      c. /*expression1*/ : result % 5 ==0
+         /*expression2*/ : result // 2 >2
+
+      d. /*expression1*/ : result % 5 == 0
+         /*expression2*/ : result // 2 >= 2
       
       
 12.Consider the following method.
-   ```java
+  ```java
    public int Function(int a){
       if (a <= 0){
          return 1;
@@ -269,9 +273,9 @@
          return Function(a - 1) + Function(a - 2);
       }
     }
-   ```
-   What will be the result of `System.out.println(Function(3))`;
-   
+  ```
+   What will be the result of `System.out.println(Function(3));` ?
+
    a. 2
    
    b. 3
@@ -281,23 +285,24 @@
    d. 5
    
 13. Consider the following method.
-    public int Function(int n){
-        int[] ctrlSequence = {3, 5, 11, 25, 36};
-        for (int i= ctrlSequence.length() - 1; i > 0; i--){
-            n = n % ctrlSequence[i];
-        }
-        return n;
-    }
-    
-   what is the result of Function(107) ?
-   
-   a. 2
-   
-   b. 10
-   
-   c. 0
-   
-   d. 3
+      ```java
+       public int Function(int n){
+           int[] ctrlSequence = {3, 5, 11, 25, 36};
+           for (int i= ctrlSequence.length() - 1; i > 0; i--){
+               n = n % ctrlSequence[i];
+           }
+           return n;
+       }
+      ``` 
+      what is the result of `Function(107)` ?
+
+      a. 2
+
+      b. 10
+
+      c. 0
+
+      d. 3
 
 ## Free Response Questions (3 Questions, 30 Min)
 
