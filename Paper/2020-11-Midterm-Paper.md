@@ -194,6 +194,7 @@
          }
          i++
       }
+      ```
       
       What will be printed as a result of executing the code segment?
       
@@ -221,6 +222,7 @@
       int size = list.size();
       return size;
     }
+    ```
     
     What is the result of the method?
     
@@ -249,6 +251,7 @@
       else{
          result = result * 2;
       }
+   ```
    
    Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
    
@@ -296,6 +299,7 @@
         }
         return n;
     }
+    ```
     
    what is the result of Function(107) ?
    
