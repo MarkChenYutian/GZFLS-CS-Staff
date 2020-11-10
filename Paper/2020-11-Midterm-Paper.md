@@ -41,6 +41,7 @@
    d. 2.0
 
 3. `!(!( a!=b || a < 5)) && (b > 7))` is equivalent to which of the following?
+   
    a. `a != b || a < 5 || b > 7`
    
    b. `a == b && a >= 5 || b <= 7`

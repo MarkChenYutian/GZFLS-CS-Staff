@@ -8,7 +8,7 @@ Pull Request 一定要记得写上自己负责的part，这样与别人版本冲
 
 ## In Progress
 
-- [ ] CS1 Mid-term Notes
+- [ ] CS1 Mid-term Paper
   - [ ] MCQ (13Q, 30min)
   - [ ] FRQ (3Q, 30min)
 
