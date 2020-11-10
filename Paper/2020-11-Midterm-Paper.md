@@ -184,6 +184,8 @@
    ```
 
 9. Consider the following code segment.
+
+      ```java
       int arr = {2, 8, 6, 4, 10, 31, 15, 18, 11};
       int i == 0;
       while (i < arr.length() -2 ){
@@ -204,6 +206,8 @@
       d. 2 4 10 15 
 
 10. Consider the following method.
+
+    ```java
     public static void main(String args[]) {
       ArrayList<Integer> list = new ArrayList<String>();
       for (int i = 0; i < 10; i++){
@@ -230,6 +234,8 @@
                              
 
 11. Consider the following code segment.
+    
+    ```java
     int result = 200;
     for (int i == 0; i < 5; i++){
       if ( /*expression1*/ )
@@ -281,6 +287,8 @@
    d. 5
    
 13. Consider the following method.
+
+    ```java
     public int Function(int n){
         int[] ctrlSequence = {3, 5, 11, 25, 36};
         for (int i= ctrlSequence.length() - 1; i > 0; i--){
