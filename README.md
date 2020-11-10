@@ -32,7 +32,7 @@
 
 ## In Progress
 
-- [ ] CS1 Mid-term Notes
+- [ ] CS1 Mid-term Paper
   - [ ] MCQ (13Q, 30min)
   - [ ] FRQ (3Q, 30min)
 
