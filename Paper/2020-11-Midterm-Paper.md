@@ -95,7 +95,7 @@
       ```java
       test.insert(0, 2);
       test.set(1, 4);
-      ```
+      ```   
    
 6. Consider the following function
 
@@ -183,85 +183,83 @@
    7
    ```
 
-9. Consider the following function
+9. Consider the following code segment.
+      int arr = {2, 8, 6, 4, 10, 31, 15, 18, 11};
+      int i == 0;
+      while (i < arr.length() -2 ){
+         if (arr[i] < arr[i + 1]){
+            System.out.print(arr[i] + " ");
+         }
+         i++
+      }
+      
+      What will be printed as a result of executing the code segment?
+      
+      a. 2 6 10 15
+      
+      b. 2 4 10 11
+      
+      c. 2 6 10 11
+      
+      d. 2 4 10 15 
 
-   ```java
-   public static int findValueIndex(int[] arr, int n){
-       //missing section   
-   }
-   ```
-
-   Placing which segment of code in position "missing section" will make the function be able to help us find the index of specific value in array (if there does not exist such a value, return -1)?
-
-   a. 
-
-   ```java
-   for (int i = 0; i < arr.length; i++){
-       if (arr.get(i) == n){
-           return n;
-       }
-       else{
-           return -1;
-       }
-   }
-   ```
-
-   b.
-
-   ```java
-   for (int i = 0; i < arr.length; i++){
-       if (arr[i] == n){
-           return n;
-       }
-       return -1;
-   }
-   ```
-
-   c.
-
-   ```java
-   for (int i = 0; i < arr.size(); i++){
-       if (arr[i] == n){
-           return i;
-       }
-   }
-   return -1;
-   ```
-
-   d.
-
-   ```java
-   for (int i = 0; i < arr.length; i++){
-       if (arr[i] == n){
-           return i;
-       }
-   }
-   return -1;
-   ```
-
-10. Consider the following code segment that aims to find the mean value of a given `ArrayList` of integers.
-
-    ```java
-    public static double Function(ArrayList<int> arr){
-        int s = 0;
-        for (int i = 0; i < arr.size(); i ++){
-            s += arr.get(i);
-        }
-        return s / arr.size();
+10. Consider the following method.
+    public static void main(String args[]) {
+      ArrayList<Integer> list = new ArrayList<String>();
+      for (int i = 0; i < 10; i++){
+          if (list.size() < 4){
+            list.add(i);
+          }
+          else{
+            list.remove(0);
+          }
+      }
+      int size = list.size();
+      return size;
     }
-    ```
+    
+    What is the result of the method?
+    
+    a. 2
+    
+    b. 3
+    
+    c. 4
+    
+    d. 5
+                             
 
-    Will this code work accurately?
-
-    a. Yes
-
-    b. No, since we should use `arr.length` to get the length of `arr` instead of `arr.size()` 
-
-    c. No, since we should use `s // arr.size()` instead of `s / arr.size()` on the last line.
-
-    d. No, since dividing two integers `s` and `arr.size()` will make the result inaccurate.
-
-13. Consider the following method.
+11. Consider the following code segment.
+    int result = 200;
+    for (int i == 0; i < 5; i++){
+      if ( /*expression1*/ )
+      {
+         result = result // 10;
+      }
+      else if ( /* expression2 */ )
+      {
+         retult = result % 2;
+      }
+      else{
+         result = result * 2;
+      }
+   
+   Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
+   
+   a. /*expression1*/ : result % 10 == 0
+      /*expression2*/ : result // 2 > 2
+   
+   b. /*expression1*/ : result % 10 ==0
+      /*expression2*/ : result // 2 >= 2
+   
+   c. /*expression1*/ : result % 5 ==0
+      /*expression2*/ : result // 2 >2
+   
+   d. /*expression1*/ : result % 5 == 0
+      /*expression2*/ : result // 2 >= 2
+      
+      
+12.Consider the following method.
    ```java
    public int Function(int a){
       if (a <= 0){
@@ -281,6 +279,25 @@
    c. 4
    
    d. 5
+   
+13. Consider the following method.
+    public int Function(int n){
+        int[] ctrlSequence = {3, 5, 11, 25, 36};
+        for (int i= ctrlSequence.length() - 1; i > 0; i--){
+            n = n % ctrlSequence[i];
+        }
+        return n;
+    }
+    
+   what is the result of Function(107) ?
+   
+   a. 2
+   
+   b. 10
+   
+   c. 0
+   
+   d. 3
 
 ## Free Response Questions (3 Questions, 30 Min)
 
