@@ -1,6 +1,6 @@
 # AP Computer Science A Paper
 
-## Multiple Choise (13 Questions, Suggest Time: 30 Min)
+## Multiple Choice (13 Questions, Suggest Time: 30 Min)
 1. Consider the following code segment
    ```java
    int n = 10;
@@ -95,7 +95,94 @@
       ```java
       test.insert(0, 2);
       test.set(1, 4);
-      ```
+      ```   
+   
+6. Consider the following function
+
+   ```java
+   public static void Function(int n){
+       double i = 2;
+       int m = 3;
+       System.out.println(i + n / m);
+   }
+   ```
+
+   What will be the output of `Function(2)`
+
+   a. 2
+
+   b. 2.0
+
+   c. 1
+
+   d. 1.0
+
+7. Consider the following function
+
+   ```java
+   public static int MysteryFunc(int p, int q)
+       int n = 0;
+       for (int i = 0; i < p; i ++){
+           for (int j = 0; j < q; j ++){
+               n++;
+           }
+       }
+       return n;
+   ```
+
+   Which of the formula below has same effect?
+
+   a. `n = p + q;`
+
+   b. `n = p * q;`
+
+   c. `n = pq + pq + ... + pq;` (with `p` `pq` terms)
+
+   d. `n = Math.pow(p, q);`
+
+8. Observe the following code segment
+
+   ```java
+   public static void main(String[] args) {
+       int[] a = new int[3];
+       int[] b = {1, 2, 3};
+       a = b;
+       b[1] = 7;
+       System.out.println(a[1]);
+       System.out.println(b[1]);
+   }
+   ```
+
+   What will be the output of this function?
+
+   a. 
+
+   ```
+   1
+   1
+   ```
+
+   b.
+
+   ```
+   2
+   2
+   ```
+
+   c. 
+
+   ```
+   2
+   7
+   ```
+
+   d.
+
+   ```
+   7
+   7
+   ```
+
 9. Consider the following code segment.
       int arr = {2, 8, 6, 4, 10, 31, 15, 18, 11};
       int i == 0;
@@ -157,7 +244,7 @@
          result = result * 2;
       }
    
-   Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result = 8
+   Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
    
    a. /*expression1*/ : result % 10 == 0
       /*expression2*/ : result // 2 > 2
@@ -170,8 +257,10 @@
    
    d. /*expression1*/ : result % 5 == 0
       /*expression2*/ : result // 2 >= 2
-   
+      
+      
 12.Consider the following method.
+   ```java
    public int Function(int a){
       if (a <= 0){
          return 1;
@@ -180,7 +269,8 @@
          return Function(a - 1) + Function(a - 2);
       }
     }
-   What will be the result of System.out.println(Function(3));
+   ```
+   What will be the result of `System.out.println(Function(3))`;
    
    a. 2
    
@@ -210,3 +300,4 @@
    d. 3
 
 ## Free Response Questions (3 Questions, 30 Min)
+
