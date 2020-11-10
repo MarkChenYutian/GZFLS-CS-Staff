@@ -365,28 +365,15 @@
    4
    
    
-   3. consider the following program
+   3. 
    ```java
-   public static int lessThan20(int[] arr){
-      int result=0;
-      // write your code below
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      return result;
-   }
+   // write your code below
    
-   public static void main(String[] args){
-      int[] arr={0,1,4,1,30,5,8,93,45,8,9,20,5,4,9};
-      System.out.println(lessThan20(arr));
-   }
+   
+   
+   
+   
+   
    ```
-   complete the program to count the number of elements in the array that is less than or equal to 20 (you must use regression). 
-   
+   Write a function `reverseNum(int num)` to reverse the input `num`(num is a positive integer). For example, given a positive integer 54321, the expected output in reverse order of each number (12345). (you must use regression, you may try to use %)
 
