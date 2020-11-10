@@ -186,9 +186,9 @@
 9. Consider the following code segment.
 
       ```java
-      int arr = {2, 8, 6, 4, 10, 31, 15, 18, 11};
+      int[] arr = {2, 8, 6, 4, 10, 31, 15, 18, 11};
       int i == 0;
-      while (i < arr.length() -2 ){
+      while (i < arr.length -2 ){
          if (arr[i] < arr[i + 1]){
             System.out.print(arr[i] + " ");
          }
@@ -294,7 +294,7 @@
     ```java
     public int Function(int n){
         int[] ctrlSequence = {3, 5, 11, 25, 36};
-        for (int i= ctrlSequence.length() - 1; i > 0; i--){
+        for (int i= ctrlSequence.length - 1; i > 0; i--){
             n = n % ctrlSequence[i];
         }
         return n;
