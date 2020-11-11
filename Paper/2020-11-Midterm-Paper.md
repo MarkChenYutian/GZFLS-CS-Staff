@@ -40,15 +40,29 @@
 
    d. 2.0
 
-3. `!(!( a!=b || a < 5)) && (b > 7))` is equivalent to which of the following?
+3. Consider the following code segment ...
    
-   a. `a != b || a < 5 || b > 7`
-   
-   b. `a == b && a >= 5 || b <= 7`
-   
-   c. `a == b || a >= 5 && b > 7)`
-   
-   d. `a != b && a < 5 || b <= 7)`
+   ```java
+   public static int Func(int x, int y){
+       int res = 0;
+       for (int i = 0; i < x; i ++){
+           for (int j = 0; j < y; j ++){
+               res += j;
+           }
+      }
+      return res
+  }
+  ```
+  
+  What is the result of `Func(5, 7)`
+  
+  a.  105
+  
+  b.  35
+  
+  c.  140
+  
+  d.  84
   
 4. Consider the following code segment ...
    ```java
@@ -62,41 +76,41 @@
    }
    ```
    What is the output of `coding("Happy_AP_CS_A!");`
-   
+
    a. "Happy_AP_CS_A!"
-   
+
    b. "A!S__CAPy_ppHa"
-   
+
    c. "!A_SC_PA_yppaH"
-   
+
    d. "A!_CS_AP_Happy"
-  
+
 5. Which line of code should be written to transfer `ArrayList<int> test` from `[1, 3, 5, 2]` to `[1, 2, 4, 5, 2]`?
-   
+
    a. 
       ```java
       test.insert(1, 2);
       test.set(2, 4);
       ```
-   
+
    b. 
       ```java
       test.insert(2, 1);
       test.set(4, 2);
       ```
-   
+
    c. 
       ```java
       test.insert(1, 0);
       test.set(1, 4);
       ```
-   
+
    d.
       ```java
       test.insert(0, 2);
       test.set(1, 4);
-      ```   
-   
+      ```
+
 6. Consider the following function
 
    ```java
@@ -193,76 +207,77 @@
          }
          i++
       }
-    ```
-      
-      What will be printed as a result of executing the code segment?
-      
-      a. 2 6 10 15
-      
-      b. 2 4 10 11
-      
-      c. 2 6 10 11
-      
-      d. 2 4 10 15 
+     ```
+
+       What will be printed as a result of executing the code segment?
+
+       a. 2 6 10 15
+
+       b. 2 4 10 11
+
+       c. 2 6 10 11
+
+       d. 2 4 10 15 
 
 10. Consider the following method.
-      ```java
-       public static void main(String args[]) {
-         ArrayList<Integer> list = new ArrayList<String>();
-         for (int i = 0; i < 10; i++){
-             if (list.size() < 4){
-               list.add(i);
-             }
-             else{
-               list.remove(0);
-             }
-         }
-         int size = list.size();
-         return size;
-       }
+       ```java
+        public static void main(String args[]) {
+          ArrayList<Integer> list = new ArrayList<String>();
+          for (int i = 0; i < 10; i++){
+              if (list.size() < 4){
+                list.add(i);
+              }
+              else{
+                list.remove(0);
+              }
+          }
+          int size = list.size();
+          return size;
+        }
        ```
-    What is the result of the method?
-    
-    a. 2
-    
-    b. 3
-    
-    c. 4
-    
-    d. 5
-                             
+     What is the result of the method?
+
+     a. 2
+
+     b. 3
+
+     c. 4
+
+     d. 5
+                              
 
 11. Consider the following code segment.
-      ```java
-       int result = 200;
-       for (int i == 0; i < 5; i++){
-         if ( /*expression1*/ )
-         {
-            result = result // 10;
-         }
-         else if ( /* expression2 */ )
-         {
-            retult = result % 2;
-         }
-         else{
-            result = result * 2;
-         }
-      ```
-      Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
+        ```java
+         int result = 200;
+         for (int i == 0; i < 5; i++){
+           if ( /*expression1*/ )
+           {
+              result = result // 10;
+           }
+           else if ( /* expression2 */ )
+           {
+              retult = result % 2;
+           }
+           else{
+              result = result * 2;
+           }
+        ```
+        Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
 
-      a. /*expression1*/ : result % 10 == 0
-         /*expression2*/ : result // 2 > 2
+        a. /*expression1*/ : result % 10 == 0
+           /*expression2*/ : result // 2 > 2
 
-      b. /*expression1*/ : result % 10 ==0
-         /*expression2*/ : result // 2 >= 2
+        b. /*expression1*/ : result % 10 ==0
+           /*expression2*/ : result // 2 >= 2
 
-      c. /*expression1*/ : result % 5 ==0
-         /*expression2*/ : result // 2 >2
+        c. /*expression1*/ : result % 5 ==0
+           /*expression2*/ : result // 2 >2
 
-      d. /*expression1*/ : result % 5 == 0
-         /*expression2*/ : result // 2 >= 2
-      
-      
+        d. /*expression1*/ : result % 5 == 0
+           /*expression2*/ : result // 2 >= 2
+
+        
+
 12.Consider the following method.
   ```java
    public int Function(int a){
@@ -277,13 +292,13 @@
    What will be the result of `System.out.println(Function(3));` ?
 
    a. 2
-   
+
    b. 3
-   
+
    c. 4
-   
+
    d. 5
-   
+
 13. Consider the following method.
       ```java
        public int Function(int n){
@@ -293,7 +308,7 @@
            }
            return n;
        }
-      ``` 
+      ```
       what is the result of `Function(107)` ?
 
       a. 2
