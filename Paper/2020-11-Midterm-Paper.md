@@ -14,15 +14,15 @@ while (n < 20){
 ```
 What are the first and last numbers output by the program?
 
-a. 10, 20
+(a) 10, 20
 
-b. 10, 19
+(b) 10, 19
 
-c. 11, 20
+(c) 11, 20
 
-d. 11, 19
+(d) 11, 19
 
-e. 10, 21
+(e) 10, 21
 
 
 
@@ -40,15 +40,15 @@ e. 10, 21
 ```
 What is the output of code segment?
 
-a. 21.0
+(a) 21.0
 
-b. 21
+(b) 21
 
-c. 2.33333333333
+(c) 2.33333333333
 
-d. 2.0
+(d) 2.0
 
-e. 2
+(e) 2
 
 
 
@@ -68,15 +68,15 @@ public static int Func(int x, int y){
 
 What is the result of `Func(5, 7)`
 
-a.  105
+(a)  105
 
-b.  35
+(b)  35
 
-c.  140
+(c)  140
 
-d.  84
+(d)  84
 
-e.  245
+(e)  245
 
 
 
@@ -94,43 +94,45 @@ public static String coding(String input){
 ```
 What is the output of `coding("Happy_AP_CS_A!");`
 
-a. "Happy_AP_CS_A!"
+(a) "Happy_AP_CS_A!"
 
-b. "A!S__CAPy_ppHa"
+(b) "A!S__CAPy_ppHa"
 
-c. "!A_SC_PA_yppaH"
+(c) "!A_SC_PA_yppaH"
 
-d. "A!_CS_AP_Happy"
+(d) "A!_CS_AP_Happy"
+
+(e) "\_A!\_CS_APppyHa"
 
 
 
 5 - Which line of code should be written to transfer `ArrayList<int> test` from `[1, 3, 5, 2]` to `[1, 2, 4, 5, 2]`?
 
-a. 
+(a) 
   ```java
 test.insert(1, 2);
 test.set(2, 4);
   ```
 
-b. 
+(b) 
   ```java
 test.insert(2, 1);
 test.set(4, 2);
   ```
 
-c. 
+(c) 
   ```java
 test.insert(1, 0);
 test.set(1, 4);
   ```
 
-d.
+(d) 
   ```java
 test.insert(0, 2);
 test.set(1, 4);
   ```
 
-e.
+(e) 
 
 ```java
 test.set(1, 4);
@@ -151,15 +153,15 @@ public static void Function(int n){
 
 What will be the output of `Function(2)`
 
-a. 2
+(a) 2
 
-b. 2.0
+(b) 2.0
 
-c. 1
+(c) 1
 
-d. 1.0
+(d) 1.0
 
-e. 1.33333333333
+(e) 1.33333333333
 
 
 
@@ -179,15 +181,15 @@ for (int i = 0; i < p; i ++){
 
 Which of the formula below has same effect?
 
-a. `n = p + q;`
+(a) `n = p + q;`
 
-b. `n = p * (q * (q+1))/2;`
+(b) `n = p * (q * (q+1))/2;`
 
-c. `n = pq + pq + ... + pq;` (with `p` "`pq`" terms)
+(c) `n = pq + pq + ... + pq;` (with `p` "`pq`" terms)
 
-d. `n = Math.pow(p, q);`
+(d) `n = Math.pow(p, q);`
 
-e. `n = p * q;`
+(e) `n = p * q;`
 
 
 
@@ -204,35 +206,35 @@ System.out.println(b[1]);
 
 What will be the output of this code segment?
 
-a. 
+(a) 
 
 ```
 1
 1
 ```
 
-b.
+(b)
 
 ```
 2
 2
 ```
 
-c. 
+(c) 
 
 ```
 2
 7
 ```
 
-d.
+(d) 
 
 ```
 7
 7
 ```
 
-e.
+(e) 
 
 ```
 1
@@ -256,15 +258,15 @@ e.
 
 What will be printed as a result of executing the code segment?
 
-a. 2 6 10 15
+(a) 2 6 10 15
 
-b. 2 4 10 11
+(b) 2 4 10 11
 
-c. 2 6 10 11
+(c) 2 6 10 11
 
-d. 2 4 10 15 
+(d) 2 4 10 15 
 
-e. 2 4 15 11
+(e) 2 4 15 11
 
 
 
@@ -285,15 +287,15 @@ System.out.println(size);
 ```
 What is the result of the method?
 
-a. 2
+(a) 2
 
-b. 3
+(b) 3
 
-c. 4
+(c) 4
 
-d. 5
+(d) 5
 
-e. 6
+(e) 6
 
 
 
@@ -316,19 +318,19 @@ else{
  ```
 Which of the following can be used to replace /*expression1*/ and /*expression2*/ so that result is 8
 
-a. /*expression1*/ `result % 10 == 0`
+(a) /*expression1*/ `result % 10 == 0`
     /*expression2*/ `result // 2 > 2`
 
-b. /*expression1*/ `result % 10 ==0`
+(b) /*expression1*/ `result % 10 ==0`
     /*expression2*/ `result // 2 >= 2`
 
-c. /*expression1*/ `result % 5 ==0`
+(c) /*expression1*/ `result % 5 ==0`
     /*expression2*/ `result // 2 > 2`
 
-d. /*expression1*/ `result % 5 == 0`
+(d) /*expression1*/ `result % 5 == 0`
     /*expression2*/ `result // 2 >= 2`
 
-e. /expression1/ `result // 5 == 0`
+(e) /expression1/ `result // 5 == 0`
 	/expression2/ `result // 2 >= 2`
 
 
@@ -347,15 +349,15 @@ public int Function(int a){
   ```
 What will be the result of `Function(3)` ?
 
-a. 2
+(a) 2
 
-b. 3
+(b) 3
 
-c. 4
+(c) 4
 
-d. 5
+(d) 5
 
-e. 6
+(e) 6
 
 
 
@@ -371,15 +373,15 @@ public int Function(int n){
 ```
 What is the result of `Function(107)` ?
 
-a. 2
+(a) 2
 
-b. 10
+(b) 10
 
-c. 0
+(c) 0
 
-d. 3
+(d) 3
 
-e. 13
+(e) 13
 
 
 
